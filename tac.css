@@ -1,0 +1,37 @@
+body{
+    background-color:#2082e8 ;
+    text-align: center;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    justify-content: center;
+}
+
+
+.box{
+    border: 2px solid white;
+    color: white;
+    padding: 14px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px ;
+}
+
+
+h1{
+    color: #FAB201;
+    -webkit-text-stroke: 4px white;    
+    font-family: 'Fredoka One' ;
+    font-size: 100px;
+}
+
+
+footer{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+}
